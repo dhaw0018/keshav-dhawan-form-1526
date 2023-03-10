@@ -1,0 +1,102 @@
+
+@media only screen and (min-width: 25rem)
+
+  #frame form input[type=button] {
+    width: 25%;
+  }  
+
+
+@media only screen and (min-width: 40rem) and (max-width: 50rem){
+
+  main {
+    max-width: 50rem;
+  }
+
+  #frame form input[type=button] {
+    width: 25%;
+  }
+
+  .flex-container > div {
+    width: 50%;
+  }
+} 
+
+#background
+{
+  width: 100%;
+  height: auto;
+  padding: 2rem 0;
+}
+
+body 
+{
+  width: 100%;
+  height: auto;
+  font-size: 0.8rem;
+  font-family: montserrat, sans-serif;
+}
+
+.flex-Container 
+{
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.flex-container > div
+{
+  width: 100%;
+}
+
+#frame
+{
+  position: relative;
+  width:50%;
+  margin:auto;
+  padding: 2rem;
+}
+
+#frame form
+{
+    padding: 1.5rem;
+    width:85%;
+  margin: 3.2rem auto;
+  border: solid #BFBFBF 0.05rem;
+}
+
+#frame h1
+{
+  padding: 1.2rem;
+  font-size: 1.2rem;
+  position: absolute;
+  top: 2%;
+  left: 12%;
+  width:40% ;
+  background-color:#F5F5F5;
+  color: BLACK;
+  text-align: center;
+  border: solid #BFBFBF 0.05rem;
+}
+
+#frame form label, input[type=text], textarea
+{
+  padding: 0.5rem;
+  width: 100%;
+  margin: 1rem auto;
+}
+
+#frame form input[type=text], textarea
+{
+  border: solid #BFBFBF 0.05rem;
+}
+
+#frame form input[type=button]
+{
+  padding: 0.4rem ;
+  border: none;
+  border-radius: 0.4rem;
+  width: 50%; 
+  cursor: pointer;
+  background-color: #6495ED;
+  color: whea;
+  font-size: 1.25rem;
+}
